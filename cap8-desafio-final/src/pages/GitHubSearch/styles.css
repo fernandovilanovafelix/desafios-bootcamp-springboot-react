@@ -1,0 +1,48 @@
+.github-search-container {
+  display: flex;
+  flex-direction: column;
+  padding: 55px 90px;
+}
+
+.container-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 55px;
+  padding: 55px 30px;
+  background-color: #e6f7ff;
+  border-radius: 16px;
+}
+
+.container-search-container h1 {
+  margin-bottom: 15px;
+  font-size: 38px;
+  color: #262626;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.search-input {
+  margin-bottom: 32px;
+  padding: 8px 24px 8px 17px;
+  width: 300px;
+  height: 40px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+
+.search-input::placeholder {
+  font-size: 16px;
+  color: #5c5858;
+}
+
+.search-button {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  color: #fff;
+}

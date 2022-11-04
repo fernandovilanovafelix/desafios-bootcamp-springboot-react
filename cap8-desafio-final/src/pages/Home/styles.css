@@ -1,0 +1,26 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  padding: 27px 40px;
+}
+
+.home-container h1 {
+  font-size: 48px;
+  color: #000;
+  letter-spacing: 0.02em;
+}
+
+.home-container p {
+  font-size: 24px;
+  font-weight: 700;
+  color: #7e7e7e;
+  letter-spacing: 0.02em;
+}
+
+.start-button {
+  margin-top: 20px;
+  width: 101px;
+  height: 40px;
+  background-color: #1890FF;
+  color: #fff;
+}
