@@ -1,0 +1,59 @@
+.main-nav {
+  min-height: 70px;
+  background-color: #f78b00;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #00285f;
+}
+
+.nav-logo-text h4 {
+  font-size: 24px;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 380px;
+  font-size: 18px;
+}
+
+.main-menu a {
+  color: #00285f;
+}
+
+.main-menu a:hover {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.main-menu a.active {
+  color: #00285f;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  #carros-top-navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+  }
+
+  .main-menu {
+    justify-content: flex-end;
+  }
+
+  .main-menu-item {
+    margin-right: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-logo-text {
+    margin-left: 140px;
+  }
+
+  #carros-top-navbar {
+    margin-right: 140px;
+  }
+}
