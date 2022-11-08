@@ -1,0 +1,68 @@
+.review-crud-container {
+  padding: 20px 10px;
+  margin-bottom: 16px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  background-color: #6c6c6c;
+}
+
+.review-crud-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-crud-input-container {
+  margin-bottom: 17px;
+}
+
+.review-crud-input-container input {
+  padding-left: 10px;
+  width: 280px;
+  height: 50px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.review-crud-input-container input::placeholder {
+  font-size: 16px;
+  letter-spacing: -0.015em;
+  color: #9e9e9e;
+}
+
+.review-crud-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.review-crud-button-container button {
+  width: 280px;
+  height: 50px;
+  padding: 10px 22px;
+  border-radius: 4px;
+}
+
+.button-title {
+  font-size: 16px;
+}
+
+@media (min-width: 1200px) {
+  .review-crud-input-container input {
+    width: 1077px;
+  }
+
+  .review-crud-button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-crud-button-container button {
+    width: 334px;
+  }
+
+  .button-title {
+    font-size: 20px;
+  }
+}

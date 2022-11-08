@@ -1,0 +1,29 @@
+.movie-details-container {
+  padding: 17px 10px 35px 10px;
+  background-color: #525252;
+}
+
+.movie-details-container h1 {
+  margin-bottom: 18px;
+  width: 265px;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: #fff;
+}
+
+.movie-details-container-reviews {
+  background-color: #6c6c6c;
+}
+
+@media (min-width: 1200px) {
+  .movie-details-container {
+    padding: 36px 40px 38px 40px;
+  }
+
+  .movie-details-container h1 {
+    margin-bottom: 35px;
+    width: auto;
+    font-size: 48px;
+  }
+}

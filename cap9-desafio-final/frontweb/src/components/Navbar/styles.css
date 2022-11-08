@@ -1,0 +1,44 @@
+.main-nav {
+  display: flex;
+}
+
+.nav-logo-text,
+.nav-logo-text:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-logo-text h4 {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.logout-link {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: solid 1px #000;
+  border-radius: 10px;
+}
+
+.logout-link a {
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    height: 70px;
+  }
+
+  .nav-logo-text {
+    margin-left: 25px;
+  }
+
+  .nav-login-logout {
+    margin-right: 25px;
+  }
+}
