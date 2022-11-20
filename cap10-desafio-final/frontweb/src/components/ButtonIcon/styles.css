@@ -1,0 +1,12 @@
+.btn-container {
+  display: flex;
+}
+
+.button-title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 22px;
+  text-transform: uppercase;
+}

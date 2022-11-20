@@ -1,0 +1,34 @@
+.movie-list-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  background-color: #525252;
+}
+
+@media (min-width: 576px) {
+  .movie-list-container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .movie-list-container {
+    padding: 40px;
+  }
+
+  .movie-list-pagination-container {
+    margin-top: 20px !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie-list-container {
+    padding: 42px 40px 90px 40px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .movie-list-container {
+    padding: 42px 140px 390px 140px;
+  }
+}
